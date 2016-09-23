@@ -590,7 +590,7 @@ void* GetGLFunctionPointer(const char* functionName)
 		functionPointer == (void*)-0x1
 		)
 	{
-		HMODULE module = LoadLibraryA("opengl32.dll");
+		HMODULE module = GetModuleHandleA("opengl32.dll");
 		functionPointer = (void*)GetProcAddress(module, functionName);
 	}
 	return functionPointer;
