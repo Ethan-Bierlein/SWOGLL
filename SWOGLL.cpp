@@ -27,7 +27,7 @@
 #include <gl/GLU.h>
 #include <gl/glext.h>
 #include <gl/wglext.h>
-#include "SWOGLL.h"
+#include "SWOGLL.hpp"
 
 PFNGLACTIVESHADERPROGRAMPROC glActiveShaderProgram;
 PFNGLACTIVETEXTUREPROC glActiveTexture;
